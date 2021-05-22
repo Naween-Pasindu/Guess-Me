@@ -8,7 +8,7 @@
     height: 100vh;
     width: 100%;
     padding-top: 50px;
-    background-image: linear-gradient(to top right,#2fe657 ,#24b0cc);
+    background-image: linear-gradient(to top right,#00ff29 ,#00bab5);
 }
 .header{
     width: 250px;
@@ -22,7 +22,7 @@ h1{
     text-shadow: 2px 2px 5px #011806;
 }
 .mainBox{
-    width: 800px;
+    width: 600px;
     background-color: aliceblue;
     height: 500px;
     margin: auto;
@@ -33,12 +33,12 @@ h1{
 .left{
     width: 50%;
     height: 100%;
-    background-color: #2fe657;
+    background-color: #00ff37;
     float: left;
 }
 .right{
     width: 50%;
     height: 100%;
-    background-color:#24b0cc;
+    background-color:#00c478;
     float: right;
 }
