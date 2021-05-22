@@ -8,7 +8,7 @@
     height: 100vh;
     width: 100%;
     padding-top: 50px;
-    background-image: linear-gradient(-125deg,#2fe657 ,#24b0cc);
+    background-image: linear-gradient(to top right,#2fe657 ,#24b0cc);
 }
 .header{
     width: 250px;
@@ -17,6 +17,9 @@
 h1{
     font-family: 'Permanent Marker', cursive;
     font-size: 50px;
+    color: #2fe657;
+    font-weight:500;
+    text-shadow: 2px 2px 5px #011806;
 }
 .mainBox{
     width: 800px;
@@ -24,16 +27,18 @@ h1{
     height: 500px;
     margin: auto;
     margin-top: 25px;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .left{
     width: 50%;
     height: 100%;
-    background-color: aqua;
+    background-color: #2fe657;
     float: left;
 }
 .right{
     width: 50%;
     height: 100%;
-    background-color:black;
+    background-color:#24b0cc;
     float: right;
 }
